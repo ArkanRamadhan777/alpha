@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+  
+  body {
+    @apply font-jakarta overflow-x-hidden;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #FAFBFC;
+  }
+
+  /* Prevent text clipping without breaking layout */
+  p, span, a, button {
+    line-height: 1.6;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1.3;
+    padding-bottom: 0.1em;
+    font-family: 'Quicksand', 'Poppins', sans-serif;
+  }
+
+  /* Add padding to prevent navbar overlap */
+  section {
+    scroll-margin-top: 4rem;
+  }
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  *::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  * {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+}
+
+@layer components {
+  /* Soft 3D Button */
+  .btn-3d {
+    @apply relative transition-all duration-300;
+    transform: translateY(0);
+  }
+  
+  .btn-3d:hover {
+    transform: translateY(-4px);
+  }
+  
+  .btn-3d:active {
+    transform: translateY(-1px);
+  }
+
+  /* Clay-style card effect */
+  .card-clay {
+    @apply bg-white rounded-3xl shadow-soft transition-all duration-300;
+  }
+  
+  .card-clay:hover {
+    @apply shadow-soft-lg -translate-y-1;
+  }
+
+  /* Floating blob decorations */
+  .blob {
+    @apply absolute rounded-full blur-3xl opacity-20;
+    animation: blob 7s infinite;
+  }
+}
+
+@layer utilities {
+  /* Text with soft shadow */
+  .text-soft-shadow {
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  }
+  
+  /* Soft gradient text */
+  .text-gradient-soft {
+    @apply bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 bg-clip-text text-transparent;
+  }
+}
+
