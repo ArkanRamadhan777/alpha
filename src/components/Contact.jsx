@@ -28,7 +28,7 @@ const Contact = () => {
         
         <div className="flex flex-wrap justify-center gap-6 mb-20">
           <a 
-            href="mailto:contact@alpha.org" 
+            href="mailto:ganexa.team@gmail.com" 
             className="btn-3d group bg-white/90 backdrop-blur-sm text-soft-text font-jakarta font-bold px-10 py-6 rounded-full shadow-soft-lg hover:shadow-soft-xl transition-all duration-300 flex items-center gap-3 border-4 border-pastel-sky/50 hover:border-pastel-sky"
           >
             <div className="w-12 h-12 bg-gradient-to-br from-pastel-sky to-pastel-mint rounded-full flex items-center justify-center group-hover:scale-110 group-hover:rotate-12 transition-all">
@@ -40,7 +40,7 @@ const Contact = () => {
           </a>
           
           <a 
-            href="https://wa.me/628123456789" 
+            href="https://wa.me/6287760769086" 
             target="_blank" 
             rel="noopener noreferrer"
             className="btn-3d group bg-gradient-to-r from-green-400 to-green-500 text-white font-jakarta font-bold px-10 py-6 rounded-full shadow-soft-lg hover:shadow-soft-xl transition-all duration-300 flex items-center gap-3 border-4 border-green-300"
@@ -54,7 +54,7 @@ const Contact = () => {
           </a>
           
           <a 
-            href="https://instagram.com/alpha.official" 
+            href="https://instagram.com/ganexa.team" 
             target="_blank" 
             rel="noopener noreferrer"
             className="btn-3d group bg-gradient-to-br from-pink-400 via-purple-400 to-indigo-400 text-white font-jakarta font-bold px-10 py-6 rounded-full shadow-soft-lg hover:shadow-soft-xl transition-all duration-300 flex items-center gap-3 border-4 border-pink-300"
@@ -66,6 +66,20 @@ const Contact = () => {
             </div>
             <span className="text-lg">Instagram</span>
           </a>
+
+          <a 
+            href="https://tiktok.com/@ganexa.team" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="btn-3d group bg-black text-white font-jakarta font-bold px-10 py-6 rounded-full shadow-soft-lg hover:shadow-soft-xl transition-all duration-300 flex items-center gap-3 border-4 border-gray-600"
+          >
+            <div className="w-12 h-12 bg-white/90 rounded-full flex items-center justify-center group-hover:scale-110 group-hover:rotate-12 transition-all">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7 text-black" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.9-.32-1.98-.23-2.81.31-.75.42-1.24 1.25-1.33 2.1-.1.7.1 1.41.53 1.97.43.54 1.1 1 1.77 1.16.82.16 1.67 0 2.4-.39.68-.32 1.22-.89 1.55-1.57.23-.44.31-.94.31-1.44V0h-.01z"/>
+              </svg>
+            </div>
+            <span className="text-lg">TikTok</span>
+          </a>
         </div>
         
         {/* Fun footer with decorative elements */}
@@ -76,10 +90,10 @@ const Contact = () => {
             <div className="w-12 h-12 bg-white/60 backdrop-blur-sm rounded-2xl -rotate-12 shadow-soft animate-float-delay"></div>
           </div>
           <p className="font-jakarta text-soft-text font-medium text-lg">
-            &copy; 2026 ALPHA. Hak Cipta Dilindungi.
+            &copy; 2026 GANEXA. Hak Cipta Dilindungi.
           </p>
           <p className="font-jakarta text-gray-600 mt-2">
-            Dibuat dengan 💜 untuk masa depan yang lebih cerah
+            Made by GANEXA 💜
           </p>
         </footer>
       </div>

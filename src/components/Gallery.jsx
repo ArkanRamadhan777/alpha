@@ -3,37 +3,37 @@ const Gallery = () => {
     {
       id: 1,
       url: "https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=800&auto=format&fit=crop",
-      alt: "Students collaborating",
+      alt: "Anggota berkolaborasi",
       color: "pastel-mint"
     },
     {
       id: 2,
       url: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&auto=format&fit=crop",
-      alt: "Team meeting",
+      alt: "Pertemuan tim",
       color: "pastel-lavender"
     },
     {
       id: 3,
       url: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&auto=format&fit=crop",
-      alt: "Workshop session",
+      alt: "Sesi workshop",
       color: "pastel-pink"
     },
     {
       id: 4,
       url: "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&auto=format&fit=crop",
-      alt: "Group discussion",
+      alt: "Diskusi kelompok",
       color: "pastel-sky"
     },
     {
       id: 5,
       url: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&auto=format&fit=crop",
-      alt: "Student presenting",
+      alt: "Presentasi anggota",
       color: "pastel-peach"
     },
     {
       id: 6,
       url: "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800&auto=format&fit=crop",
-      alt: "Learning together",
+      alt: "Belajar bersama",
       color: "pastel-yellow"
     }
   ];

@@ -41,7 +41,7 @@ const Programs = () => {
             <div className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-28 h-1.5 bg-gradient-to-r from-pink-400 to-purple-400 rounded-full"></div>
           </h2>
           <p className="font-jakarta text-gray-600 text-lg mt-6 max-w-2xl mx-auto">
-            Berbagai program menarik yang dirancang untuk mengembangkan potensi siswa
+            Berbagai program menarik yang dirancang untuk mengembangkan potensi anggota
           </p>
         </div>
         

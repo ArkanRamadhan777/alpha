@@ -34,7 +34,7 @@ const Hero = () => {
             </div>
             
             <p className="font-jakarta text-xl md:text-2xl text-soft-text leading-relaxed max-w-lg">
-              Memberdayakan siswa melalui{' '}
+              Memberdayakan perubahan melalui{' '}
               <span className="relative inline-block">
                 <span className="relative z-10 font-semibold">inovasi</span>
                 <span className="absolute bottom-1 left-0 w-full h-3 bg-pastel-yellow opacity-60 -rotate-1"></span>

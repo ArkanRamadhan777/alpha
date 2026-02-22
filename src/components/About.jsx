@@ -19,12 +19,12 @@ const About = () => {
           <div className="space-y-8">
             <div className="bg-white/70 backdrop-blur-sm rounded-3xl p-8 shadow-soft hover:shadow-soft-lg transition-all duration-300">
               <p className="font-jakarta text-soft-text text-lg leading-relaxed">
-                ALPHA adalah organisasi sekolah yang berpikiran maju, didedikasikan untuk membangun generasi pemimpin, inovator, dan agen perubahan masa depan. Kami percaya pada pemberdayaan siswa untuk mencapai potensi penuh mereka melalui program dan inisiatif yang bermakna.
+                ALPHA adalah organisasi yang berpikiran maju, didedikasikan untuk membangun generasi pemimpin, inovator, dan agen perubahan masa depan. Kami percaya pada pemberdayaan anggota untuk mencapai potensi penuh mereka melalui program dan inisiatif yang bermakna.
               </p>
             </div>
             <div className="bg-white/70 backdrop-blur-sm rounded-3xl p-8 shadow-soft hover:shadow-soft-lg transition-all duration-300">
               <p className="font-jakarta text-soft-text text-lg leading-relaxed">
-                Misi kami adalah menciptakan komunitas inklusif di mana setiap siswa dapat berkembang, belajar, dan tumbuh. Melalui proyek kolaboratif, acara yang menarik, dan pendekatan inovatif, kami membangun masa depan yang lebih cerah bersama-sama.
+                Misi kami adalah menciptakan komunitas inklusif di mana setiap anggota dapat berkembang, belajar, dan tumbuh. Melalui proyek kolaboratif, acara yang menarik, dan pendekatan inovatif, kami membangun masa depan yang lebih cerah bersama-sama.
               </p>
             </div>
           </div>
